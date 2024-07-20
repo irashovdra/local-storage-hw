@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- TO DO -->
+
+    <h2>Todo List</h2>
+    <input type="text" class="task-input" placeholder="Add a new task..." />
+    <button class="task-button">Add Task</button>
+    <ul class="task-list"></ul>
+
+    <!-- LOGIN -->
+
+    <h2>Login Form</h2>
+    <form class="login-form">
+      <label for="username">Username:</label>
+      <input type="text" class="username" name="username" required />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" class="password" name="password" required />
+      <br />
+      <button type="submit">Login</button>
+    </form>
+
+    <!-- BOOKMARKS -->
+
+    <h2>Bookmarks</h2>
+    <form class="bookmark-form">
+      <input
+        type="text"
+        class="bookmark-url"
+        placeholder="Enter URL"
+        required
+      />
+      <button type="submit">Add Bookmark</button>
+    </form>
+    <ul class="bookmark-list"></ul>
+
+    <!-- CONTACTS -->
+
+    <h1>Contact Manager</h1>
+    <form class="contact-form">
+      <input type="text" class="first-name" placeholder="First Name" required />
+      <input type="text" class="last-name" placeholder="Last Name" required />
+      <input type="tel" class="phone" placeholder="Phone" required />
+      <input type="email" class="email" placeholder="Email" required />
+      <button type="submit">Add Contact</button>
+    </form>
+    <ul class="contact-list"></ul>
+
+    <!-- SCRIPTS -->
+
+    <script type="module" src="./js/todo-list.js"></script>
+    <script type="module" src="./js/form.js"></script>
+    <script type="module" src="./js/marks.js"></script>
+    <script type="module" src="./js/contacts.js"></script>
+  </body>
+</html>
